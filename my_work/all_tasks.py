@@ -2,6 +2,8 @@ import os
 import osa
 import re
 
+print('')
+
 
 def get_dir(file):
     current_dir = os.path.dirname(os.path.abspath(__file__))
